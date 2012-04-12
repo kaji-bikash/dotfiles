@@ -1,0 +1,8 @@
+# Set PATH, CDPATH, EDITOR, etc.
+export PATH=$PATH:~/bin
+export HISTTIMEFORMAT='%F %R '
+export HISTCONTROL=ignoredups
+export HISTCONTROL=erasedups
+export HISTCONTROL=ignorespace
+export HISTIGNORE="pwd:ls:ls -l:cls:c:history"
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
